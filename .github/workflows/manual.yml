@@ -36,7 +36,7 @@ jobs:
         
       # pip install
       - name: pip install
-        run: pip3 install sphinx sphinx_rtd_theme pyyaml
+        run: pip3 install -U sphinx sphinx_rtd_theme pyyaml
 
       # checkout poky
       - name: checkout poky
