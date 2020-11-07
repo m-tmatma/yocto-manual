@@ -2,6 +2,7 @@
 
 Build yocto reference manual based on the following document.
 
+https://git.yoctoproject.org/cgit.cgi/poky/tree/documentation/README?h=zeus
 https://git.yoctoproject.org/cgit.cgi/poky/plain/documentation/README
 
 ## How to build yocto manual on docker
