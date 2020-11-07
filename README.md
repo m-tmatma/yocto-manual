@@ -49,11 +49,3 @@ make pdf DOC=ref-manual
 ```
 
 You can get `poky/documentation/ref-manual/ref-manual.pdf`
-
-
-
-
-
-
-
-
