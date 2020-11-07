@@ -6,3 +6,5 @@ RUN apt-get update && apt-get autoremove --purge -y \
     python3 \
     python3-pip \
  && rm -rf /var/lib/apt/lists/*
+
+RUN pip3 install sphinx sphinx_rtd_theme pyyaml
