@@ -44,4 +44,4 @@ jobs:
 
       # build pdf
       - name: build pdf
-        run: ./pdf.sh
+        run: ./container/build.sh
