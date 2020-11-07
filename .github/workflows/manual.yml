@@ -48,7 +48,7 @@ jobs:
 
       # collect pdf
       - name: collect pdf
-        run: find -name "*.pdf" | xargs -I{} cp {} .
+        run: find -name "*.pdf" | xargs -I{} cp {} {{ github.workspace }}
         
       # upload artifact
       - uses: actions/upload-artifact@v2
