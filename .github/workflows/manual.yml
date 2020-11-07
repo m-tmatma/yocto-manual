@@ -30,7 +30,7 @@ jobs:
       - name: prepare build environment
         run: |
           sudo apt-get update
-          sudo apt-get install make python3 python3-pip xsltproc fop
+          sudo apt-get install make python3 python3-pip python3-setuptools xsltproc fop
           pip3 install sphinx sphinx_rtd_theme pyyaml
 
       # checkout poky
