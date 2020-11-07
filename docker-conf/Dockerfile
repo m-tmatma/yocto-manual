@@ -10,6 +10,9 @@ RUN apt-get update && apt-get autoremove --purge -y \
 
 RUN pip3 install sphinx sphinx_rtd_theme pyyaml
 
+RUN apt-get update \
+ && apt-get install -y xsltproc fop
+
 ENV USER yocto
 ENV HOME /home/${USER}
 ENV SHELL /bin/bash
