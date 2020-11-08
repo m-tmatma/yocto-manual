@@ -45,3 +45,9 @@ jobs:
       # build pdf
       - name: build pdf
         run: ./container/build.sh
+        
+      # upload artifact
+      - uses: actions/upload-artifact@v2
+        with:
+         name: 'document PDF'
+         path: './container/poky/documentation/**/*.pdf'
