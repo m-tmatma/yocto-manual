@@ -1,3 +1,5 @@
+[![Build status](https://github.com/m-tmatma/yocto-manual/workflows/CI/badge.svg)](https://github.com/m-tmatma/yocto-manual/actions?query=workflow%3ACI)
+
 # yocto-manual
 
 Build yocto reference manual based on the following document.
