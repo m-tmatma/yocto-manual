@@ -45,13 +45,9 @@ jobs:
       # build pdf
       - name: build pdf
         run: ./container/build.sh
-
-      # collect pdf
-      - name: collect pdf
-        run: find -name "*.pdf" | xargs -I{} cp {} ${{ env.GITHUB_WORKSPACE }}
         
       # upload artifact
       - uses: actions/upload-artifact@v2
         with:
          name: 'document PDF'
-         path: '*.pdf'
+         path: './container/poky/documentation/**/*.pdf'
