@@ -1,1 +1,1 @@
-DOCKER_IMAGE="yocto-manual:18.04"
+DOCKER_IMAGE="yocto-manual:21.04"

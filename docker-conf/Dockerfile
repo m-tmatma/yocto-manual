@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM ubuntu:21.04
 ENV DEBIAN_FRONTEND noninteractive
 
 RUN apt-get update && apt-get autoremove --purge -y \
