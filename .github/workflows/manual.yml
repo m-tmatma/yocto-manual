@@ -42,6 +42,10 @@ jobs:
       - name: checkout poky
         run: ./clone.sh
 
+      # sphinx version
+      - name: sphinx version
+        run: sphinx-build --version
+
       # build pdf
       - name: build pdf
         run: ./container/build.sh
