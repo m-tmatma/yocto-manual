@@ -4,7 +4,7 @@
 
 Build yocto reference manual based on the following document.
 
-https://git.yoctoproject.org/cgit.cgi/poky/tree/documentation/README?h=zeus
+https://git.yoctoproject.org/cgit.cgi/poky/tree/documentation/README?h=dunfell
 https://git.yoctoproject.org/cgit.cgi/poky/plain/documentation/README
 
 ## How to build yocto manual on docker
@@ -32,16 +32,16 @@ sudo apt-get install -y git-core \
 
 ### Get Source code
 
-You can specify branch name by `-b` option. In the following example, `zeus` branch will be checkout initially.
+You can specify branch name by `-b` option. In the following example, `dunfell` branch will be checkout initially.
 
 ```
-git clone -b zeus git://git.yoctoproject.org/poky
+git clone -b dunfell git://git.yoctoproject.org/poky
 ```
 
 or
 
 ```
-git clone -b zeus https://git.yoctoproject.org/git/poky
+git clone -b dunfell https://git.yoctoproject.org/git/poky
 ```
 
 ### build

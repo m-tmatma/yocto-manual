@@ -2,7 +2,7 @@
 
 SCRIPT_DIR=$(cd $(dirname $0); pwd)
 
-BRANCH=zeus
+BRANCH=dunfell
 
 # Top dir of source
 DOCKER_HOME=$SCRIPT_DIR/container
